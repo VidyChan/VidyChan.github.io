@@ -1,0 +1,98 @@
+body, p, a, span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Great Vibes',serif;
+}
+
+
+/* Actual styles start here :D */
+.parti {width: 100%;}
+
+.home {
+    position: relative;
+    background: #ff6a00;
+    overflow: hidden;
+}
+.home .bg {
+    width: 100%;
+    position: absolute;
+    top:  0;
+    left: 0;
+    z-index: 0;
+}
+.home .bg0 {
+    background: url(../img/repeatBg.jpg) repeat;
+    animation: bg0 130s infinite linear;
+}
+@keyframes bg0 {
+    0% {
+        background-position: top 0 left 0;
+    }
+
+    100% {
+        background-position: top 0 left -100%;
+    }
+}
+.home .bg1 {
+    background: url(../img/bg01.png) repeat-x bottom left;
+    animation:  bg1 95s infinite linear;
+}
+@keyframes bg1 {
+    0% {
+        background-position: bottom 0 left 0;
+    }
+
+    100% {
+        background-position: bottom 0 left -100%;
+    }
+}
+.home .bg2 {
+    background: url(../img/bg02.png) repeat-x bottom left;
+    animation:  bg2 55s infinite linear;
+}
+@keyframes bg2 {
+    0% {
+        background-position: bottom 0 left 0;
+    }
+
+    100% {
+        background-position: bottom 0 left -100%;
+    }
+}
+.home .bg3 {
+    background: url(../img/bg03.png) repeat-x bottom left;
+    animation:  bg3 25s infinite linear;
+}
+@keyframes bg3 {
+    0% {
+        background-position: bottom 0 left 0;
+    }
+
+    100% {
+        background-position: bottom 0 left -100%;
+    }
+}
+.top {
+    color:  #808080;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    z-index: 5;
+}
+.top h1 {
+    margin: 0 0 17px 0;
+    padding: 0;
+    font-size: 72px;
+    color: #ff6a00;
+}
+.top p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase
+}
+.bottom .tag {
+    color:  #cc285a;
+}
