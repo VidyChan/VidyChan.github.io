@@ -11,6 +11,9 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/main.css" />
+        
+        <script type="text/javascript" src="//cdn.jsdelivr.net/modernizr/2.7.1/modernizr.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/prefixfree/1.0.7/prefixfree.dynamic-dom.min.js"></script>
     </head>
     <body>
         
@@ -27,16 +30,42 @@
                     <div class="top">
                         <p>The</p>
                         <h1>enchanting Artistry</h1>
-                        <p>of Shri and Ren</p>
+                        <p>of <span>Shri</span> and <span>Ren</span></p>
                     </div>
                     <div class="divider">
-                        <img src="img/div.png" />
+                        <img class="img-responsive" alt="a Divider" src="img/div.png" />
                     </div>
                     <div class="bottom">
                         <p class="tag">The Mavericks in Creative Designing</p>
                     </div>
 
-                    <div class="nav navbar"></div>
+                    <nav class="navbar navbar-default" role="navigation">
+                      <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                          <!--<a class="navbar-brand" href="#">Brand</a>-->
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                          <ul class="nav navbar-nav">
+                              <li class="active"><a href="#"><i class="glyphicon glyphicon-home"></i><span>Home</span></a></li>
+                              <li><a href="#"><i class="glyphicon glyphicon-edit bigNa"></i>What we do <span>Portfolio</span></a></li>
+                              <li><a href="#"><i class="glyphicon glyphicon-tower bigNa"></i>Who we are <span>About</span></a></li>
+                              <li><a href="#"><i class="glyphicon glyphicon-fire bigNa"></i>Why hire us <span>Advantages!</span></a></li>
+                              <li><a href="#"><i class="glyphicon glyphicon-phone-alt bigNa"></i>Hire us! <span>or just say Hi!</span></a></li>
+                          </ul>
+                         
+                        </div><!-- /.navbar-collapse -->
+                      </div><!-- /.container-fluid -->
+                    </nav>
+
 
                 </div>
 

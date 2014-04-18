@@ -7,6 +7,12 @@ $(document).ready(function () {
 
         $('.home').css('height', $act).css('width', $wid);
         $('.home .bg').css('height', $act).css('width', $wid);
+
+        
+        if ($(window).height() < ($('nav').offset().top + 50)) {
+            $('.home').css('height', $('nav').offset().top + 200);
+            $('.home .bg').css('height', $('nav').offset().top + 200);
+        }
     }
 
 
