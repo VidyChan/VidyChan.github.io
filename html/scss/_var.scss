@@ -1,0 +1,14 @@
+$primary: #b01541;
+$secondary: #fff;
+
+$body: #777777;
+$title: #000333;
+
+$textprimary: #c90f44;
+
+@mixin fontserif() {
+	font-family: 'Playfair Display', Georgia, serif;
+}
+@mixin fontsans() {
+	font-family: 'Open Sans', Arial, sans-serif;
+}

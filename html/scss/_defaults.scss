@@ -1,0 +1,97 @@
+body {
+	@include fontsans();
+	font-size: 13px;
+	color: $body;
+	&, * {
+		box-sizing: border-box;
+		-moz-border-sizing: border-box;
+	}
+}
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	@include fontserif();
+	font-weight: bold;
+	font-style: italic;
+	color: $title;
+}
+.h1 {
+	font-size: 2em;
+}
+.h2 {
+	font-size: 1.5em;
+}
+.h3 {
+	font-size: 1.17em;
+}
+.h4 {
+	font-size: 1.12em;
+}
+.h5 {
+	font-size: 0.83em;
+}
+.h6 {
+	font-size: 0.75em;
+}
+b, strong {
+	font-weight: bold;
+}
+
+.sr-only {
+	display: none;
+}
+
+.posrel {
+	position: relative;
+}
+.posab {
+	position: absolute;
+}
+
+.mTop-10 {
+	margin-top: 10px;
+}
+.mTop-20 {
+	margin-top: 20px;
+}
+.mTop-30 {
+	margin-top: 30px;
+}
+
+.mBtm-10 {
+	margin-top: 10px;
+}
+.mBtm-20 {
+	margin-top: 20px;
+}
+.mBtm-30 {
+	margin-top: 30px;
+}
+
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+
+footer {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 11px;
+	
+	position: relative;
+	background: #F7F7F7;
+	margin-top: -1px;
+	padding-top: 1px;
+	.footer-w {
+		padding: 35px;
+		max-width: 1199px;
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 15px;
+		border-top: 1px solid #dadada;
+	}
+}
